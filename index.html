@@ -2,11 +2,19 @@
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 禁止双击缩放，防止番茄钟操作误触；最大缩放比保持1便于辅助功能 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="theme-color" content="#5b6cff" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>专注与习惯面板</title>
     <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="icon" type="image/svg+xml" href="./icon.svg" />
-    <title>专注与习惯面板</title>
+    <!-- iOS 图标：必须用PNG，尺寸按设备指定 -->
+    <link rel="apple-touch-icon" href="./icon-180x180.png" />
+    <link rel="apple-touch-icon" sizes="167x167" href="./icon-167x167.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="./icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="./icon-120x120.png" />
   </head>
   <body>
     <div id="app"></div>
