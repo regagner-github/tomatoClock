@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.vite/
+.npm-cache/
+.build-check/
+*.local
+.DS_Store
+
+# vite 配置加载产生的临时时间戳文件
+vite.config.js.timestamp-*.mjs
+
+# 本地工具记忆，不入库
+.workbuddy/
+
+# 第三方源码（非本项目，勿入库）
+OpenCPN*/
+opencpn-master.tar.gz
