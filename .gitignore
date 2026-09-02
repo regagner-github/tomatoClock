@@ -5,7 +5,7 @@ dist/
 .build-check/
 *.local
 .DS_Store
-
+.claude
 # vite 配置加载产生的临时时间戳文件
 vite.config.js.timestamp-*.mjs
 
